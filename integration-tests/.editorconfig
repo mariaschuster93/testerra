@@ -1,0 +1,17 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+end_of_line = unset # let git handle it
+indent_size = 4
+indent_style = space
+insert_final_newline = true # POSIX
+max_line_length = off # sensible value changes with screen size
+trim_trailing_whitespace = true
+
+
+[*.java]
+ij_java_class_count_to_use_import_on_demand = 20
